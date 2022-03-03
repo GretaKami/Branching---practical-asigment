@@ -56,7 +56,10 @@ if (var1%2==0)
     Console.WriteLine($"First number {var1} is even");
 
 }
-
+if (var1<0 || var2<0)
+{
+    Console.WriteLine ($"There are a negative value");
+}
 
 
 
