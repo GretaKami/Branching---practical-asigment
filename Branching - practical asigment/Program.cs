@@ -35,6 +35,16 @@ else
     Console.WriteLine("Variables are not equal");
 }
 
-    
 
-    
+if (var1%2 != 0)
+{
+    Console.WriteLine($"First number {var1} is odd");
+}
+
+if (var2 % 2 != 0)
+{
+    Console.WriteLine($"Second number {var2} is odd");
+}
+
+
+
