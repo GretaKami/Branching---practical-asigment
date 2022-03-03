@@ -26,7 +26,14 @@ else
     Console.WriteLine($"Smallest number is {var1}");
 }
 
-
+if (var1==var2)
+{ 
+ Console.WriteLine("Both varibles are equal");
+}
+else
+{
+    Console.WriteLine("Variables are not equal");
+}
 
     
 
