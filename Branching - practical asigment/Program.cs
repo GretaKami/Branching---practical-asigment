@@ -13,4 +13,21 @@ if (var1>var2)
 else
 {
     Console.WriteLine($"Larger number is {var2}");
+    
 }
+if (var1>var2)
+{
+Console.WriteLine($"Smallest number is {var2}");
+
+}
+else
+
+{
+    Console.WriteLine($"Smallest number is {var1}");
+}
+
+
+
+    
+
+    
