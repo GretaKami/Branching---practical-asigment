@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+/*
 short var1 = 123;
 short var2 = 12345;
 
@@ -60,6 +60,21 @@ if (var1<0 || var2<0)
 {
     Console.WriteLine ($"There are a negative value");
 }
+*/
+int time = 8;
+int day = 12;
+int month = 12;
+int year = 2000l;
 
-
-
+if (time <12)
+{
+Console.WriteLine("Good morning sunshine");
+  }
+else if (time > 13) && (time < 19)
+       {
+    Console.WriteLine ("Good Afternoon. Work hard");
+    }
+else if ((time > 20) && (time < 24))
+{ 
+    Console.WriteLine("Good evening. Get some rest");
+    }
