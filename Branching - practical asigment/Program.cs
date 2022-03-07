@@ -58,7 +58,12 @@ if (var1%2==0)
 }
 if (var1<0 || var2<0)
 {
-    Console.WriteLine ($"There are a negative value");
+    Console.WriteLine ($"There are negative values");
+}
+
+if (var1 > 0 || var2 > 0)
+{
+    Console.WriteLine($"There are positive values");
 }
 */
 int time = 8;
