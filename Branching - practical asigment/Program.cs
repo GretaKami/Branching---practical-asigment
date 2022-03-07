@@ -66,20 +66,24 @@ if (var1 > 0 || var2 > 0)
     Console.WriteLine($"There are positive values");
 }
 */
-int time = 8;
+int time = 100;
 int day = 12;
 int month = 12;
-int year = 2000l;
+int year = 2000;
 
-if (time <12)
+if (time < 1 || time > 24)
+{
+    Console.WriteLine("Incorrect time");
+}
+else if (time <12)
 {
 Console.WriteLine("Good morning sunshine");
   }
-else if (time > 13) && (time < 19)
+else if ((time >= 13) && (time < 19))
        {
     Console.WriteLine ("Good Afternoon. Work hard");
     }
-else if ((time > 20) && (time < 24))
+else if ((time >= 20) && (time <= 24))
 { 
     Console.WriteLine("Good evening. Get some rest");
     }
