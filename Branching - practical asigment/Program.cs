@@ -87,3 +87,19 @@ else if ((time >= 20) && (time <= 24))
 { 
     Console.WriteLine("Good evening. Get some rest");
     }
+if (day < 1 && day > 31)
+{
+    Console.WriteLine("Incorrect day");
+}
+if (month < 1 && month > 12)
+{
+    Console.WriteLine("Incorrect month");
+}
+if (year < 1)
+{
+    Console.WriteLine("Incorrect year");
+}
+if (day >= 1 && day <= 31 && month >= 1 && month <= 12 && year >= 1)
+{
+    Console.WriteLine($"{year}/{month}/{day}");
+}
